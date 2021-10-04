@@ -1,0 +1,38 @@
+.header {
+    margin-top: 50px;
+}
+
+.header__navigation {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+.header__navigation_item {
+    margin-left: 25px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.header__baner {
+    position:absolute;
+    top: 0;
+    z-index: -1;
+    height: 800px;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit:cover;
+    object-position: 0 0;
+}
+
+.header__logo img
+{
+    margin: 0 auto;
+    margin-top: -30px;
+    padding-left: 50px;
+    width: 150px;
+}
